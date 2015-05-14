@@ -1,0 +1,84 @@
+[12:47:41] [main/INFO]: LiteLoader 1.7.10_04 starting up...
+[12:47:41] [main/INFO]: Java reports OS="windows 7"
+[12:47:42] [main/INFO]: Enumerating class path...
+[12:47:42] [main/INFO]: Class path separator=";"
+[12:47:42] [main/INFO]: Class path entries=(
+   classpathEntry=C:/Games/FTB/MultiMC/jars/NewLaunch.jar
+)
+[12:47:42] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[12:47:42] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\Games\FTB\Clients\LostCraft\minecraft\mods]
+[12:47:42] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\Games\FTB\Clients\LostCraft\minecraft\mods\1.7.10]
+[12:47:42] [main/INFO]: Adding supported mod class prefix 'LiteMod'
+[12:47:42] [main/INFO]: Discovering tweaks on class path...
+[12:47:42] [main/INFO]: Discovering valid mod files in folder C:\Games\FTB\Clients\LostCraft\minecraft\mods
+[12:47:42] [main/INFO]: Considering valid mod file: C:\Games\FTB\Clients\LostCraft\minecraft\mods\mod_macros_0.10.12_for_1.7.10.litemod
+[12:47:42] [main/INFO]: Considering valid mod file: C:\Games\FTB\Clients\LostCraft\minecraft\mods\mod_worldeditcui_1.7.10_00_mc1.7.10.litemod
+[12:47:42] [main/INFO]: Adding newest valid mod file 'C:\Games\FTB\Clients\LostCraft\minecraft\mods\mod_macros_0.10.12_for_1.7.10.litemod' at revision 1012.0000
+[12:47:42] [main/INFO]: Adding newest valid mod file 'C:\Games\FTB\Clients\LostCraft\minecraft\mods\mod_worldeditcui_1.7.10_00_mc1.7.10.litemod' at revision 1727.0000
+[12:47:42] [main/INFO]: Discovering valid mod files in folder C:\Games\FTB\Clients\LostCraft\minecraft\mods\1.7.10
+[12:47:42] [main/INFO]: Searching for tweaks in 'Baubles-1.7.10-1.0.1.10.jar'
+[12:47:42] [main/WARN]: Error parsing manifest entries in 'C:\Games\FTB\Clients\LostCraft\minecraft\mods\1.7.10\Baubles-1.7.10-1.0.1.10.jar'
+[12:47:42] [main/INFO]: Searching for tweaks in 'CodeChickenLib-1.7.10-1.1.3.136-universal.jar'
+[12:47:42] [main/WARN]: Error parsing manifest entries in 'C:\Games\FTB\Clients\LostCraft\minecraft\mods\1.7.10\CodeChickenLib-1.7.10-1.1.3.136-universal.jar'
+[12:47:42] [main/INFO]: Searching for tweaks in 'commons-codec-1.9.jar'
+[12:47:42] [main/WARN]: Error parsing manifest entries in 'C:\Games\FTB\Clients\LostCraft\minecraft\mods\1.7.10\commons-codec-1.9.jar'
+[12:47:42] [main/INFO]: Searching for tweaks in 'commons-compress-1.8.1.jar'
+[12:47:42] [main/WARN]: Error parsing manifest entries in 'C:\Games\FTB\Clients\LostCraft\minecraft\mods\1.7.10\commons-compress-1.8.1.jar'
+[12:47:42] [main/INFO]: Searching for tweaks in 'ForgeMultipart-1.7.10-1.1.2.332-universal.jar'
+[12:47:42] [main/WARN]: Error parsing manifest entries in 'C:\Games\FTB\Clients\LostCraft\minecraft\mods\1.7.10\ForgeMultipart-1.7.10-1.1.2.332-universal.jar'
+[12:47:42] [main/INFO]: Searching for tweaks in 'MrTJPCore-1.7.10-1.0.5.12-universal.jar'
+[12:47:42] [main/WARN]: Error parsing manifest entries in 'C:\Games\FTB\Clients\LostCraft\minecraft\mods\1.7.10\MrTJPCore-1.7.10-1.0.5.12-universal.jar'
+[12:47:42] [main/INFO]: Searching for tweaks in '[1.7.10]bspkrsCore-universal-6.15.jar'
+[12:47:42] [main/WARN]: Error parsing manifest entries in 'C:\Games\FTB\Clients\LostCraft\minecraft\mods\1.7.10\[1.7.10]bspkrsCore-universal-6.15.jar'
+[12:47:42] [main/INFO]: Mod file 'mod_macros_0.10.12_for_1.7.10.litemod' provides classTransformer 'net.eq2online.macros.transformers.CollectionPacketTransformer', adding to class loader
+[12:47:42] [main/INFO]: classTransformer 'net.eq2online.macros.transformers.CollectionPacketTransformer' was successfully added
+[12:47:42] [main/INFO]: LiteLoader PREINIT complete
+[12:47:45] [main/INFO]: Injecting onstartupcomplete[x1] in func_71384_a in Minecraft
+[12:47:45] [main/INFO]: Injecting prerenderfbo[x1] in func_71411_J in Minecraft
+[12:47:45] [main/INFO]: Injecting postrenderfbo[x1] in func_71411_J in Minecraft
+[12:47:45] [main/INFO]: Injecting ontimerupdate[x1] in func_71411_J in Minecraft
+[12:47:45] [main/INFO]: Injecting onrender[x1] in func_71411_J in Minecraft
+[12:47:45] [main/INFO]: Injecting ontick[x1] in func_71411_J in Minecraft
+[12:47:45] [main/INFO]: Injecting updateframebuffersize[x1] in func_147119_ah in Minecraft
+[12:47:45] [main/INFO]: Injecting newtick[x1] in func_71407_l in Minecraft
+[12:47:45] [main/INFO]: Applying overlay com.mumfrey.liteloader.client.overlays.MinecraftOverlay to net.minecraft.client.Minecraft
+[12:47:45] [main/INFO]: MinecraftOverlayTransformer found INIT injection point, this is good.
+[12:47:45] [main/INFO]: Injecting onoutboundchat[x1] in func_71165_d in EntityClientPlayerMP
+[12:47:45] [main/INFO]: Injecting onc16packetclientstatus[x1] in func_148833_a in C16PacketClientStatus
+[12:47:45] [main/INFO]: Injecting onrenderchat[x1] in func_73830_a in GuiIngame
+[12:47:45] [main/INFO]: Injecting postrenderchat[x1] in func_73830_a in GuiIngame
+[12:47:45] [main/INFO]: Injecting onc00handshake[x1] in func_148833_a in C00Handshake
+[12:47:45] [main/INFO]: Injecting onc00packetloginstart[x1] in func_148833_a in C00PacketLoginStart
+[12:47:46] [main/INFO]: Injecting ons03packettimeupdate[x1] in func_148833_a in S03PacketTimeUpdate
+[12:47:47] [main/INFO]: Injecting ons34packetmaps[x1] in func_148833_a in S34PacketMaps
+[12:47:48] [Client thread/INFO]: Injecting onc15packetclientsettings[x1] in func_148833_a in C15PacketClientSettings
+[12:47:48] [Client thread/INFO]: Injecting renderfbo[x1] in func_147615_c in Framebuffer
+[12:47:49] [Client thread/INFO]: Injecting oncreateintegratedserver[x1] in <init> in IntegratedServer
+[12:47:49] [Client thread/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy
+[12:47:49] [Client thread/INFO]: Successfully generated event handler proxy class with 19 handlers(s) and 19 total invokations
+[12:48:05] [Client thread/INFO]: Injecting ons21packetchunkdata[x1] in func_148833_a in S21PacketChunkData
+[12:48:06] [Client thread/INFO]: Injecting ons0dpacketcollectitem[x1] in func_148833_a in S0DPacketCollectItem
+[12:48:06] [Client thread/INFO]: PacketTransformer: Running transformer net.eq2online.macros.transformers.CollectionPacketTransformer for ij
+[12:48:06] [Client thread/INFO]: Injecting ons0bpacketanimation[x1] in func_148833_a in S0BPacketAnimation
+[12:48:06] [Client thread/INFO]: Injecting ons04packetentityequipment[x1] in func_148833_a in S04PacketEntityEquipment
+[12:48:06] [Client thread/INFO]: Injecting onc08packetplayerblockplacement[x1] in func_148833_a in C08PacketPlayerBlockPlacement
+[12:48:07] [Client thread/INFO]: Injecting onplayerlogin[x1] in func_72377_c in ServerConfigurationManager
+[12:48:07] [Client thread/INFO]: Injecting onplayerlogout[x1] in func_72367_e in ServerConfigurationManager
+[12:48:07] [Client thread/INFO]: Injecting onspawnplayer[x1] in func_148545_a in ServerConfigurationManager
+[12:48:07] [Client thread/INFO]: Injecting onrespawnplayer[x1] in func_72368_a in ServerConfigurationManager
+[12:48:07] [Client thread/INFO]: Injecting ons19packetentitystatus[x1] in func_148833_a in S19PacketEntityStatus
+[12:48:07] [Client thread/INFO]: Injecting ons2cpacketspawnglobalentity[x1] in func_148833_a in S2CPacketSpawnGlobalEntity
+[12:48:07] [Client thread/INFO]: Injecting ons27packetexplosion[x1] in func_148833_a in S27PacketExplosion
+[12:48:07] [Client thread/INFO]: Injecting ons2bpacketchangegamestate[x1] in func_148833_a in S2BPacketChangeGameState
+[12:48:07] [Client thread/INFO]: Injecting ons24packetblockaction[x1] in func_148833_a in S24PacketBlockAction
+[12:48:07] [Client thread/INFO]: Injecting ons2apacketparticles[x1] in func_148833_a in S2APacketParticles
+[12:48:07] [Client thread/INFO]: Injecting ons23packetblockchange[x1] in func_148833_a in S23PacketBlockChange
+[12:48:12] [Client thread/INFO]: Injecting ons35packetupdatetileentity[x1] in func_148833_a in S35PacketUpdateTileEntity
+[12:48:17] [Client thread/INFO]: Injecting prerendergui[x1] in func_78480_b in EntityRenderer
+[12:48:17] [Client thread/INFO]: Injecting onrenderhud[x1] in func_78480_b in EntityRenderer
+[12:48:17] [Client thread/INFO]: Injecting postrenderhud[x1] in func_78480_b in EntityRenderer
+[12:48:17] [Client thread/INFO]: Injecting onrenderworld[x1] in func_78471_a in EntityRenderer
+[12:48:17] [Client thread/INFO]: Injecting onsetupcameratransform[x1] in func_78471_a in EntityRenderer
+[12:48:17] [Client thread/INFO]: Injecting postrenderentities[x1] in func_78471_a in EntityRenderer
+[12:48:17] [Client thread/INFO]: Injecting postrender[x1] in func_78471_a in EntityRenderer
+[12:48:17] [Client thread/INFO]: Injecting postrender[x1] in func_78471_a in EntityRenderer

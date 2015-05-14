@@ -1,0 +1,11 @@
+//expand 1 n|
+//expand 1 s|
+//expand 1 e|
+//expand 1 w|
+//replace 8,9 4|
+//replace 10,11 49|
+//contract 1 n|
+//contract 1 s|
+//contract 1 e|
+//contract 1 w|
+//replace 1,2,3,4,5,85,12,13,24,30,1173,1147,1223,1212,1132,636,556,644,543,1028,985,17,18,540 0
